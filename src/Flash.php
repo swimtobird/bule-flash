@@ -11,5 +11,5 @@ namespace Swimtobird;
 
 interface Flash
 {
-
+    public function getMobile(): string;
 }

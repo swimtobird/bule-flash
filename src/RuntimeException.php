@@ -8,8 +8,7 @@
 
 namespace Swimtobird;
 
-
-class RuntimeException
+class RuntimeException extends \RuntimeException
 {
 
 }
