@@ -89,7 +89,7 @@ class BlueFlash implements Flash
             throw new RuntimeException($result['message']);
         }
 
-        return $this->decrypt($result['mobileName']);
+        return $this->decrypt($result['data']['mobileName']);
     }
 
     /**
